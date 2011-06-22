@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* RUBKeychainDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* RUBKeychainDemoAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* RUBLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* RUBLoginViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* RUBLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* RUBLoginViewController.m */; };
+		32F02EB312DEF2E6007284C9 /* RUBKeychainServicesWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F02EB212DEF2E6007284C9 /* RUBKeychainServicesWrapper.m */; };
+		32F02EBF12DEF4B0007284C9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F02EBE12DEF4B0007284C9 /* Security.framework */; };
+		32F02EE412DF05AC007284C9 /* RUBHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F02EE212DF05AC007284C9 /* RUBHomeViewController.m */; };
+		32F02EE512DF05AC007284C9 /* RUBHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32F02EE312DF05AC007284C9 /* RUBHomeViewController.xib */; };
+		32F0324812E09BAC007284C9 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		32F0324912E09BAC007284C9 /* RUBLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* RUBLoginViewController.xib */; };
+		32F0324A12E09BAC007284C9 /* RUBHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32F02EE312DF05AC007284C9 /* RUBHomeViewController.xib */; };
+		32F0324C12E09BAC007284C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		32F0324D12E09BAC007284C9 /* RUBKeychainDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* RUBKeychainDemoAppDelegate.m */; };
+		32F0324E12E09BAC007284C9 /* RUBLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* RUBLoginViewController.m */; };
+		32F0324F12E09BAC007284C9 /* RUBKeychainServicesWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F02EB212DEF2E6007284C9 /* RUBKeychainServicesWrapper.m */; };
+		32F0325012E09BAC007284C9 /* RUBHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F02EE212DF05AC007284C9 /* RUBHomeViewController.m */; };
+		32F0325212E09BAC007284C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		32F0325312E09BAC007284C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		32F0325412E09BAC007284C9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		32F0325512E09BAC007284C9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F02EBE12DEF4B0007284C9 /* Security.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* RUBKeychainDemoAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RUBKeychainDemoAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* RUBKeychainDemoAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RUBKeychainDemoAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* KeychainDemo1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeychainDemo1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* RUBLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = RUBLoginViewController.xib; path = ../RUBLoginViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* RUBLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RUBLoginViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* RUBLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RUBLoginViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* KeychainServicesDemo_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainServicesDemo_Prefix.pch; sourceTree = "<group>"; };
+		32F02EB112DEF2E6007284C9 /* RUBKeychainServicesWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RUBKeychainServicesWrapper.h; sourceTree = "<group>"; };
+		32F02EB212DEF2E6007284C9 /* RUBKeychainServicesWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RUBKeychainServicesWrapper.m; sourceTree = "<group>"; };
+		32F02EBE12DEF4B0007284C9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		32F02EE112DF05AC007284C9 /* RUBHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RUBHomeViewController.h; sourceTree = "<group>"; };
+		32F02EE212DF05AC007284C9 /* RUBHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RUBHomeViewController.m; sourceTree = "<group>"; };
+		32F02EE312DF05AC007284C9 /* RUBHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RUBHomeViewController.xib; sourceTree = "<group>"; };
+		32F0325912E09BAC007284C9 /* KeychainDemo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeychainDemo2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32F0325B12E09BAC007284C9 /* KeychainServicesDemo2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KeychainServicesDemo2-Info.plist"; sourceTree = "<group>"; };
+		32F0327012E09E2F007284C9 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* KeychainServicesDemo1-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "KeychainServicesDemo1-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				32F02EBF12DEF4B0007284C9 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32F0325112E09BAC007284C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32F0325212E09BAC007284C9 /* Foundation.framework in Frameworks */,
+				32F0325312E09BAC007284C9 /* UIKit.framework in Frameworks */,
+				32F0325412E09BAC007284C9 /* CoreGraphics.framework in Frameworks */,
+				32F0325512E09BAC007284C9 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				32F02EDF12DF0576007284C9 /* RUBLoginViewController */,
+				32F02EE012DF0599007284C9 /* RUBHomeViewController */,
+				1D3623240D0F684500981E51 /* RUBKeychainDemoAppDelegate.h */,
+				1D3623250D0F684500981E51 /* RUBKeychainDemoAppDelegate.m */,
+				32F02EB112DEF2E6007284C9 /* RUBKeychainServicesWrapper.h */,
+				32F02EB212DEF2E6007284C9 /* RUBKeychainServicesWrapper.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* KeychainDemo1.app */,
+				32F0325912E09BAC007284C9 /* KeychainDemo2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* KeychainServicesDemo_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* KeychainServicesDemo1-Info.plist */,
+				32F0325B12E09BAC007284C9 /* KeychainServicesDemo2-Info.plist */,
+				32F0327012E09E2F007284C9 /* Entitlements.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				32F02EBE12DEF4B0007284C9 /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32F02EDF12DF0576007284C9 /* RUBLoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				28D7ACF60DDB3853001CB0EB /* RUBLoginViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* RUBLoginViewController.m */,
+				2899E5210DE3E06400AC0155 /* RUBLoginViewController.xib */,
+			);
+			name = RUBLoginViewController;
+			sourceTree = "<group>";
+		};
+		32F02EE012DF0599007284C9 /* RUBHomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				32F02EE112DF05AC007284C9 /* RUBHomeViewController.h */,
+				32F02EE212DF05AC007284C9 /* RUBHomeViewController.m */,
+				32F02EE312DF05AC007284C9 /* RUBHomeViewController.xib */,
+			);
+			name = RUBHomeViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* KeychainServicesDemo1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "KeychainServicesDemo1" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeychainServicesDemo1;
+			productName = RUBKeychainDemo;
+			productReference = 1D6058910D05DD3D006BFB54 /* KeychainDemo1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32F0324612E09BAC007284C9 /* KeychainServicesDemo2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32F0325612E09BAC007284C9 /* Build configuration list for PBXNativeTarget "KeychainServicesDemo2" */;
+			buildPhases = (
+				32F0324712E09BAC007284C9 /* Resources */,
+				32F0324B12E09BAC007284C9 /* Sources */,
+				32F0325112E09BAC007284C9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeychainServicesDemo2;
+			productName = RUBKeychainDemo;
+			productReference = 32F0325912E09BAC007284C9 /* KeychainDemo2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "KeychainServicesDemo" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* KeychainServicesDemo1 */,
+				32F0324612E09BAC007284C9 /* KeychainServicesDemo2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* RUBLoginViewController.xib in Resources */,
+				32F02EE512DF05AC007284C9 /* RUBHomeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32F0324712E09BAC007284C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32F0324812E09BAC007284C9 /* MainWindow.xib in Resources */,
+				32F0324912E09BAC007284C9 /* RUBLoginViewController.xib in Resources */,
+				32F0324A12E09BAC007284C9 /* RUBHomeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* RUBKeychainDemoAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* RUBLoginViewController.m in Sources */,
+				32F02EB312DEF2E6007284C9 /* RUBKeychainServicesWrapper.m in Sources */,
+				32F02EE412DF05AC007284C9 /* RUBHomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32F0324B12E09BAC007284C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32F0324C12E09BAC007284C9 /* main.m in Sources */,
+				32F0324D12E09BAC007284C9 /* RUBKeychainDemoAppDelegate.m in Sources */,
+				32F0324E12E09BAC007284C9 /* RUBLoginViewController.m in Sources */,
+				32F0324F12E09BAC007284C9 /* RUBKeychainServicesWrapper.m in Sources */,
+				32F0325012E09BAC007284C9 /* RUBHomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = KeychainServicesDemo_Prefix.pch;
+				INFOPLIST_FILE = "KeychainServicesDemo1-Info.plist";
+				PRODUCT_NAME = KeychainDemo1;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = KeychainServicesDemo_Prefix.pch;
+				INFOPLIST_FILE = "KeychainServicesDemo1-Info.plist";
+				PRODUCT_NAME = KeychainDemo1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32F0325712E09BAC007284C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = KeychainServicesDemo_Prefix.pch;
+				INFOPLIST_FILE = "KeychainServicesDemo2-Info.plist";
+				PRODUCT_NAME = KeychainDemo2;
+			};
+			name = Debug;
+		};
+		32F0325812E09BAC007284C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = KeychainServicesDemo_Prefix.pch;
+				INFOPLIST_FILE = "KeychainServicesDemo2-Info.plist";
+				PRODUCT_NAME = KeychainDemo2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PREBINDING = NO;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "KeychainServicesDemo1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32F0325612E09BAC007284C9 /* Build configuration list for PBXNativeTarget "KeychainServicesDemo2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32F0325712E09BAC007284C9 /* Debug */,
+				32F0325812E09BAC007284C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "KeychainServicesDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
